@@ -4,7 +4,8 @@
 
  - Revoir les Functions en profondeurs.
  - Ajouter Titre d'article,date,etc.
- - Afficher plusieur articles
+ - Aligner le titre par rapport a mon Articles
+ - Afficher un read more dans mon articles
 --------------------------------------------------------------------------------
 #TUTO
 --------------------------------------------------------------------------------

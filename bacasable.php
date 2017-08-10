@@ -35,6 +35,9 @@
   <div class="large-9 columns" role="content">
 
 
+  <?php $date = new DateTime();?>
+
+  <?php var_dump ($date); ?>
 
 
 
