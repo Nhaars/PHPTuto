@@ -2,10 +2,9 @@
 #PRIORITE!!!    
 --------------------------------------------------------------------------------
 
- - Terminer todo-list
  - Revoir les Functions en profondeurs.
- - Crée un repostories avec mon projet TUTO.
-
+ - Ajouter Titre d'article,date,etc.
+ - Afficher plusieur articles
 --------------------------------------------------------------------------------
 #TUTO
 --------------------------------------------------------------------------------

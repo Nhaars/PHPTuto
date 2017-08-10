@@ -1,8 +1,4 @@
-
-
-    <link rel="stylesheet" href="css/app.css">
-
-
+<link rel="stylesheet" href="css/app.css">
 <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
 
 
@@ -13,10 +9,11 @@
       <ul class="menu vertical nested">
         <li><a href="contacte.php">Contact</a></li>
         <li><a href="calendrier.php">Calendrier</a></li>
-        <li><a href="todo-list/index.php">TODO-list</a></li>
+        <li><a href="bacasable.php">Bac à sable</a></li>
 
        </ul>
     </li>
+
 
 
   <ul class="menu simple social-links">
@@ -28,11 +25,15 @@
   </ul>
 </div>
 
+
+
 <div class="off-canvas-content" data-off-canvas-content>
   <div class="nav-bar">
       <div class="nav-bar-left">
-<h3><small>//Renaissance</small></h3>
+
+        <h3><small>//TUTOProject!</small></h3>
       </div>
+
       <div class="nav-bar-right">
         <ul class="menu">
           <li class="hide-for-small-only"><a href="inscription.php">S'enregistrer</a></li>

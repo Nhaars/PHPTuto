@@ -1,6 +1,6 @@
 <!---------------------------------------------------------------------------------------------------------------------------------->
-<?php include_once 'PDO.php'; ?>
-<?php include_once 'connectionSQL.php'; ?>
+<?php include_once 'ressource/PDO.php'; ?>
+<?php include_once 'ressource/connectionSQL.php'; ?>
 <?php require_once 'require/menu.php' ?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
 <!doctype html>
