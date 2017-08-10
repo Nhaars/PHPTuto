@@ -5,6 +5,7 @@
  - Revoir les Functions en profondeurs.
  - Ajouter Titre d'article,date,etc.
  - Afficher plusieur articles
+ - Affichage des messages d'erreur PHP(Sur Hermes).
 --------------------------------------------------------------------------------
 #TUTO
 --------------------------------------------------------------------------------
