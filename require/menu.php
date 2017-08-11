@@ -31,13 +31,45 @@
   <div class="nav-bar">
       <div class="nav-bar-left">
 
-        <h3><small>//TUTOProject!</small></h3>
+        <h3><small><a href="http://127.0.0.1/PHPTuto/">//TUTOProject!</a></small></h3>
       </div>
 
+  <div class="large-2 columns">
+
+      <button class="button" type="button" data-toggle="example-dropdown">Se connecter</button>
+      <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+        Entrez vos logins
+        <form>
+          <div class="row">
+            <div class="medium-6 columns">
+              <label>Pseudo
+                <input type="text" placeholder="Kirk, James T.">
+              </label>
+            </div>
+            <div class="medium-6 columns">
+              <label>Mot de passe
+                <input type="password" placeholder="Captain">
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
+      <button class="button" type="button" ><a href="http://127.0.0.1/PHPTuto/">S'enregistrer</a></button>
+
+
+
+
+
+</div>
+
+
       <div class="nav-bar-right">
+
         <ul class="menu">
-          <li class="hide-for-small-only"><a href="inscription.php">S'enregistrer</a></li>
-          <li class="hide-for-small-only"><a href="#">Se connecter</a></li>
+
           <li>
           <li>
             <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">

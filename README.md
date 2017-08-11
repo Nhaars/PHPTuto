@@ -4,8 +4,13 @@
 
  - Revoir les Functions en profondeurs.
  - Ajouter Titre d'article,date,etc.
+<<<<<<< HEAD
  - Afficher plusieur articles
  - Affichage des messages d'erreur PHP(Sur Hermes).
+=======
+ - Aligner le titre par rapport a mon Articles
+ - Afficher un read more dans mon articles
+>>>>>>> master
 --------------------------------------------------------------------------------
 #TUTO
 --------------------------------------------------------------------------------

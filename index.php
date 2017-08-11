@@ -47,81 +47,107 @@
   <div class="large-9 columns" role="content">
 
 
-
-
     <article>
-      <h3><a href="#">Teste d'articles</a></h3>
-      <h6>Ecris par <a href="#"><?php echo $resultats1['auteurs']; ?></a> on August 12, 2017.</h6>
+      <div class="media-object">
+        <div class="media-object-section">
+          <div class="thumbnail">
+            <img src= "img/tuto.jpg">
+          </div>
+        </div>
 
-      <div class="row">
-        <div class="large-6 columns">
+        <div class="media-object-section main-section">
+          <h4><a href="#"><?php echo $resultats1['titre']; ?></a></h4>
           <p><?php echo $resultats1['contend']; ?></p>
         </div>
 
-
-          <div class="large-6 columns">
-            <img src="https://placehold.it/400x240&text=[img]"/>
-          </div>
-
-        </div>
-      </article>
-
-
-
-<hr/><!------------------------------------------------------------------------------------------->
-
-  <article>
-    <h3><a href="#">Teste d'articles</a></h3>
-    <h6>Ecris par <a href="#"><?php echo $resultats2['auteurs']; ?></a> on August 12, 2017.</h6>
-
-    <div class="row">
-      <div class="large-6 columns">
-        <p><?php echo $resultats2['contend']; ?></p>
       </div>
 
-
-        <div class="large-6 columns">
-          <img src="https://placehold.it/400x240&text=[img]"/>
-        </div>
-
-      </div>
+        <h6>Publié par <a href="#"><?php echo $resultats1['auteurs']; ?></h6>
     </article>
 
+
+
 <hr/><!------------------------------------------------------------------------------------------->
 
-    <article>
-      <h3><a href="#">Teste d'articles</a></h3>
-      <h6>Ecris par <a href="#"><?php echo $resultats3['auteurs']; ?></a> on August 12, 2017.</h6>
+<article>
+  <div class="media-object">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img src= "img/tuto.jpg">
+      </div>
+    </div>
 
-      <div class="row">
-        <div class="large-6 columns">
-          <p><?php echo $resultats3['contend']; ?></p>
-        </div>
+    <div class="media-object-section main-section">
+      <h4><a href="#"><?php echo $resultats2['titre']; ?></a></h4>
+      <p><?php echo $resultats2['contend']; ?></p>
+    </div>
+
+  </div>
+
+    <h6>Publié par <a href="#"><?php echo $resultats2['auteurs']; ?></h6>
+</article>
 
 
-          <div class="large-6 columns">
-            <img src="https://placehold.it/400x240&text=[img]"/>
-          </div>
 
-        </div>
-      </article>
 <hr/><!------------------------------------------------------------------------------------------->
-      <article>
-        <h3><a href="#">Teste d'articles</a></h3>
-        <h6>Ecris par <a href="#"><?php echo $resultats3['auteurs']; ?></a> on August 12, 2017.</h6>
 
-        <div class="row">
-          <div class="large-6 columns">
-            <p><?php echo $resultats3['contend']; ?></p>
-          </div>
+<article>
+  <div class="media-object">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img src= "img/tuto.jpg">
+      </div>
+    </div>
+
+    <div class="media-object-section main-section">
+      <h4><a href="#"><?php echo $resultats3['titre']; ?></a></h4>
+      <p><?php echo $resultats3['contend']; ?></p>
+    </div>
+
+  </div>
+
+    <h6>Publié par <a href="#"><?php echo $resultats3['auteurs']; ?></h6>
+</article>
 
 
-            <div class="large-6 columns">
-              <img src="https://placehold.it/400x240&text=[img]"/>
-            </div>
+<hr/><!------------------------------------------------------------------------------------------->
 
-          </div>
-        </article>
+<article>
+  <div class="media-object">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img src= "img/tuto.jpg">
+      </div>
+    </div>
+
+    <div class="media-object-section main-section">
+      <h4><a href="#"><?php echo $resultats3['titre']; ?></a></h4>
+      <p><?php echo $resultats3['contend']; ?></p>
+    </div>
+
+  </div>
+
+    <h6>Publié par <a href="#"><?php echo $resultats3['auteurs']; ?></h6>
+</article>
+
+<hr/><!------------------------------------------------------------------------------------------->
+<article>
+  <div class="media-object">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img src= "img/tuto.jpg">
+      </div>
+    </div>
+
+    <div class="media-object-section main-section">
+      <h4><a href="#"><?php echo $resultats4['titre']; ?></a></h4>
+      <p><?php echo $resultats4['contend']; ?></p>
+    </div>
+
+  </div>
+
+    <h6>Publié par <a href="#"><?php echo $resultats4['auteurs']; ?></h6>
+</article>
 
 
 </div>
