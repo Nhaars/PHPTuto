@@ -4,10 +4,7 @@
 
  - Revoir les Functions en profondeurs.
  - Ajouter Titre d'article,date,etc.
-<<<<<<< HEAD
  - Afficher plusieur articles
- - Affichage des messages d'erreur PHP(Sur Hermes).
-=======
  - Aligner le titre par rapport a mon Articles
  - Afficher un read more dans mon articles
 >>>>>>> master
@@ -19,11 +16,11 @@
     https://www.grafikart.fr/tutoriels/php/gerer-news-php-43
 
 - *Création d'un espace membre.*
-    https://youtu.be/YNbPMm08jcw 46:36
+    https://youtu.be/YNbPMm08jcw
 
     https://youtu.be/s7qtAnH5YkY      
     https://youtu.be/vHs9sPIA61k
-    https://youtu.be/fM5ZV2AaIjE*
+    https://youtu.be/fM5ZV2AaIjE
 
 - *Gestion d'avatar.*
     https://youtu.be/lDZLZAdr1is

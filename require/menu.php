@@ -34,7 +34,7 @@
         <h3><small><a href="http://127.0.0.1/PHPTuto/">//TUTOProject!</a></small></h3>
       </div>
 
-  <div class="large-2 columns">
+  <div class="large-3 columns">
 
       <button class="button" type="button" data-toggle="example-dropdown">Se connecter</button>
       <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
