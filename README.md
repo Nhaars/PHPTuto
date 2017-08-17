@@ -3,11 +3,13 @@
 --------------------------------------------------------------------------------
 
  - Revoir les Functions en profondeurs.
- - Ajouter Titre d'article,date,etc.
- - Afficher plusieur articles
- - Aligner le titre par rapport a mon Articles
- - Afficher un read more dans mon articles
->>>>>>> master
+ - *Ajouter Titre d'article,date,etc.*
+ - *Voir les jonctions de table*
+ - Afficher plusieur articles.
+ - enregistrement dans la base de donnée.
+ - Emailing
+
+
 --------------------------------------------------------------------------------
 #TUTO
 --------------------------------------------------------------------------------
@@ -32,7 +34,9 @@
 --------------------------------------------------------------------------------
 #Bugs à fix
 --------------------------------------------------------------------------------
-
+*Débug htaccess*
+*Jointure sql*
+*Aligner les articles*
 --------------------------------------------------------------------------------
 #Features à venir
 --------------------------------------------------------------------------------

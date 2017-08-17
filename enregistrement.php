@@ -1,9 +1,10 @@
 <!---------------------------------------------------------------------------------------------------------------------------------->
 <?php include_once 'ressource/PDO.php'; ?>
-<?php include_once 'ressource/connectionSQL.php'; ?>
-<?php require_once 'require/menu.php' ?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
+<?php
 
+
+?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
 <!doctype html>
 <html class="no-js" lang="fr" dir="ltr">
@@ -22,42 +23,36 @@
 <div class="row">
 <div class="large-12 columns">
 
-<h2>//Le_blog_Bac_à_sable_de_Nhaars!//> <small>J'apprend PHP</small></h2>
-<hr/>
+<br>
+<br>
+<br>
+
+<div class="login-box">
+<div class="row collapse expanded">
+  <div class="small-12 medium-6 column small-order-2 medium-order-1">
+    <div class="login-box-form-section">
+      <h1 class="login-box-title">S'enregistrer</h1>
+      <input class="login-box-input" type="text" name="username" placeholder="Pseudo" />
+      <input class="login-box-input" type="email" name="email" placeholder="E-mail" />
+      <input class="login-box-input" type="password" name="password" placeholder="Mot de passe" />
+      <input class="login-box-input" type="password" name="password2" placeholder="Retapez votre mot de passe" />
+      <input class="login-box-submit-button" type="submit" name="signup_submit" value="Envoi!" />
+    </div>
+    <div class="or">Ou</div>
+  </div>
+  <div class="small-12 medium-6 column small-order-1 medium-order-2 login-box-social-section">
+    <div class="login-box-social-section-inner">
+      <span class="login-box-social-headline">Connectez vous<br />avec un profil</span>
+      <a class="login-box-social-button-facebook">Facebook</a>
+      <a class="login-box-social-button-twitter">Twitter</a>
+      <a class="login-box-social-button-google">Google+</a>
+    </div>
+  </div>
 </div>
 </div>
 
-<!------------------------------------------------------------------------------------------->
-<!------------------------------------------------------------------------------------------->
-
-<div class="row">
-
-  <div class="large-9 columns" role="content">
-
-
-    <?php
-
-      echo realpath(__DIR__);
-
-
-     ?>
-
-
-
-</div>
-
-<!------------------------------------------------------------------------------------------->
-
-<footer class="row">
-<div class="large-12 columns">
-<hr/>
-<div class="row">
-<div class="large-6 columns">
-<p>&copy; Copyright no one at all. Go to town.</p>
 </div>
 </div>
-</div>
-</footer>
 
 
 <!---------------------------------------------------------------------------------------------------------------------------------->

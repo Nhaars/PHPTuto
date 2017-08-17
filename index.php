@@ -4,17 +4,15 @@
 <?php require_once 'require/menu.php' ?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
 <?php
-  $query = $pdo->query("SELECT * FROM Texte WHERE id=1");
+  $query = $pdo->query("SELECT * FROM Texte ORDER BY `id` DESC LIMIT 1");
     $resultats1 = $query->fetch();
-
-    $query = $pdo->query("SELECT * FROM Texte WHERE id=2");
+    $query = $pdo->query("SELECT * FROM Texte ORDER BY `id` DESC LIMIT 2");
       $resultats2 = $query->fetch();
-
-      $query = $pdo->query("SELECT * FROM Texte WHERE id=3");
+      $query = $pdo->query("SELECT * FROM Texte ORDER BY `id` DESC LIMIT 3");
         $resultats3 = $query->fetch();
-
-        $query = $pdo->query("SELECT * FROM Texte WHERE id=4");
+        $query = $pdo->query("SELECT * FROM Texte ORDER BY `id` DESC LIMIT 4");
           $resultats4 = $query->fetch();
+
 ?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
 <!doctype html>
@@ -34,157 +32,131 @@
 <div class="row">
 <div class="large-12 columns">
 
-<h2>//Le_blog_Bac_à_sable_de_Nhaars!//> <small>J'apprend PHP</small></h2>
+<h2>Un log Bac à sable<small>J'apprend PHP</small></h2>
 <hr/>
 </div>
 </div>
 
 <!------------------------------------------------------------------------------------------->
+<div class="article-row-section">
+  <div class="article-row-section-inner">
+
+    <h2 class="article-row-section-header">News</h2>
+
+
+    <a href="articles/article1.php" >
+      <article class="article-row article-row-reversed">
+        <div class="article-row-img">
+          <img src="http://placehold.it/200" alt="picture of a whale eating a donkey" />
+        </div>
+
+        <div class="article-row-content">
+          <h2 class="article-row-content-header"><?php echo $resultats1['titre']; ?></h2>
+
+          <p class="article-row-content-description"><?php echo $resultats1['contend']; ?></p>
+
+          <p class="article-row-content-author"><?php echo $resultats1['users']; ?></p>
+
+          <time class="article-row-content-time" datetime="2008-02-14 20:00">July 14th 2021</time>
+
+        </div>
+      </article>
+    </a>
+
 <!------------------------------------------------------------------------------------------->
 
-<div class="row">
-
-  <div class="large-9 columns" role="content">
-
-
-    <article>
-      <div class="media-object">
-        <div class="media-object-section">
-          <div class="thumbnail">
-            <img src= "img/tuto.jpg">
-          </div>
+    <a href="articles/article2.php" >
+      <article class="article-row article-row-reversed">
+        <div class="article-row-img">
+          <img src="http://placehold.it/200" alt="picture of a whale eating a donkey" />
         </div>
 
-        <div class="media-object-section main-section">
-          <h4><a href="#"><?php echo $resultats1['titre']; ?></a></h4>
-          <p><?php echo $resultats1['contend']; ?></p>
+        <div class="article-row-content">
+          <h2 class="article-row-content-header"><?php echo $resultats2['titre']; ?></h2>
+
+          <p class="article-row-content-description"><?php echo $resultats2['contend']; ?></p>
+
+          <p class="article-row-content-author"><?php echo $resultats2['users']; ?></p>
+
+          <time class="article-row-content-time" datetime="2008-02-14 20:00">July 14th 2021</time>
+
+        </div>
+      </article>
+    </a>
+<!------------------------------------------------------------------------------------------->
+
+    <a href="articles/article3.php" >
+      <article class="article-row article-row-reversed">
+        <div class="article-row-img">
+          <img src="http://placehold.it/200" alt="picture of a whale eating a donkey" />
         </div>
 
-      </div>
+        <div class="article-row-content">
+          <h2 class="article-row-content-header"><?php echo $resultats3['titre']; ?></h2>
 
-        <h6>Publié par <a href="#"><?php echo $resultats1['auteurs']; ?></h6>
-    </article>
+          <p class="article-row-content-description"><?php echo $resultats3['contend']; ?></p>
+
+          <p class="article-row-content-author"><?php echo $resultats3['users']; ?></p>
+
+          <time class="article-row-content-time" datetime="2008-02-14 20:00">July 14th 2021</time>
+
+        </div>
+      </article>
+    </a>
 
 
+<!------------------------------------------------------------------------------------------->
 
-<hr/><!------------------------------------------------------------------------------------------->
+        <a href="articles/article4.php" >
+          <article class="article-row article-row-reversed">
+            <div class="article-row-img">
+              <img src="http://placehold.it/200" alt="picture of a whale eating a donkey" />
+            </div>
 
-<article>
-  <div class="media-object">
-    <div class="media-object-section">
-      <div class="thumbnail">
-        <img src= "img/tuto.jpg">
-      </div>
-    </div>
+            <div class="article-row-content">
+              <h2 class="article-row-content-header"><?php echo $resultats4['titre']; ?></h2>
 
-    <div class="media-object-section main-section">
-      <h4><a href="#"><?php echo $resultats2['titre']; ?></a></h4>
-      <p><?php echo $resultats2['contend']; ?></p>
-    </div>
+              <p class="article-row-content-description"><?php echo $resultats4['contend']; ?></p>
+
+              <p class="article-row-content-author"><?php echo $resultats4['users']; ?></p>
+
+              <time class="article-row-content-time" datetime="2008-02-14 20:00">July 14th 2021</time>
+
+            </div>
+          </article>
+        </a>
+
 
   </div>
-
-    <h6>Publié par <a href="#"><?php echo $resultats2['auteurs']; ?></h6>
-</article>
+</div>
 
 
-
-<hr/><!------------------------------------------------------------------------------------------->
-
-<article>
-  <div class="media-object">
-    <div class="media-object-section">
-      <div class="thumbnail">
-        <img src= "img/tuto.jpg">
-      </div>
-    </div>
-
-    <div class="media-object-section main-section">
-      <h4><a href="#"><?php echo $resultats3['titre']; ?></a></h4>
-      <p><?php echo $resultats3['contend']; ?></p>
-    </div>
-
-  </div>
-
-    <h6>Publié par <a href="#"><?php echo $resultats3['auteurs']; ?></h6>
-</article>
-
-
-<hr/><!------------------------------------------------------------------------------------------->
-
-<article>
-  <div class="media-object">
-    <div class="media-object-section">
-      <div class="thumbnail">
-        <img src= "img/tuto.jpg">
-      </div>
-    </div>
-
-    <div class="media-object-section main-section">
-      <h4><a href="#"><?php echo $resultats3['titre']; ?></a></h4>
-      <p><?php echo $resultats3['contend']; ?></p>
-    </div>
-
-  </div>
-
-    <h6>Publié par <a href="#"><?php echo $resultats3['auteurs']; ?></h6>
-</article>
-
-<hr/><!------------------------------------------------------------------------------------------->
-<article>
-  <div class="media-object">
-    <div class="media-object-section">
-      <div class="thumbnail">
-        <img src= "img/tuto.jpg">
-      </div>
-    </div>
-
-    <div class="media-object-section main-section">
-      <h4><a href="#"><?php echo $resultats4['titre']; ?></a></h4>
-      <p><?php echo $resultats4['contend']; ?></p>
-    </div>
-
-  </div>
-
-    <h6>Publié par <a href="#"><?php echo $resultats4['auteurs']; ?></h6>
-</article>
 
 
 </div>
+</div>
 
-<!------------------------------------------------------------------------------------------->
-<!------------------------------------------------------------------------------------------->
-<aside class="large-3 columns">
-<h5>Categories</h5>
-<ul class="side-nav">
-<li><a href="#">News</a></li>
-<li><a href="#">Code</a></li>
-<li><a href="#">Design</a></li>
-<li><a href="#">Fun</a></li>
-<li><a href="#">Weasels</a></li>
+<hr>
+
+<ul class="pagination text-center" role="navigation" aria-label="Pagination" data-page="6" data-total="16">
+  <li class="pagination-previous disabled">Antérieure <span class="show-for-sr">page</span></li>
+  <li class="current"><span class="show-for-sr">Vous etes sur la page</span> 1</li>
+  <li><a href="#" aria-label="Page 2">2</a></li>
+  <li><a href="#" aria-label="Page 3">3</a></li>
+  <li><a href="#" aria-label="Page 4">4</a></li>
+  <li class="ellipsis" aria-hidden="true"></li>
+  <li><a href="#" aria-label="Page 12">12</a></li>
+  <li><a href="#" aria-label="Page 13">13</a></li>
+  <li class="pagination-next"><a href="#" aria-label="Next page">Suivant <span class="show-for-sr">page</span></a></li>
 </ul>
-<div class="panel">
-<h5>Featured</h5>
-<p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-<a href="#">Read More &rarr;</a>
-</div>
-</aside>
 
-</div>
+
+
+
+<br>
+<br>
 <!------------------------------------------------------------------------------------------->
-
-<footer class="row">
-<div class="large-12 columns">
-<hr/>
-<div class="row">
-<div class="large-6 columns">
-<p>&copy; Copyright no one at all. Go to town.</p>
-</div>
-</div>
-</div>
-</footer>
-
-
+<?php require 'footer.php' ?>
 <!---------------------------------------------------------------------------------------------------------------------------------->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

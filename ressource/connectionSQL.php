@@ -12,7 +12,7 @@
 //Inserer,modifié et supprimer des données dans MySQL via PHP-------------------
 
 
-      //$pdo->query("INSERT INTO Test (id,pseudo) VALUES (NULL,'Nhaars')"); //Ajoute donnée dans la colonne de ma bdd.
+      //$pdo->query("INSERT INTO users (id,pseudo,genre,email) VALUES (NULL,'Nhaars','Homme','Gazoubo@gmail.com')"); //Ajoute donnée dans la colonne de ma bdd.
       //$pdo->query("UPDATE Test SET colonne = 'nouveau_contenu' WHERE id = 3"); //Modifie donnée dans la colonne de ma bdd.
       //$pdo->query("DELETE FROM Test WHERE id = 2"); //Supprime donnée dans la colonne de ma bdd.
 

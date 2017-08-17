@@ -7,9 +7,11 @@
   <ul class="vertical menu" data-accordion-menu>
     <li><a href="#">PHP</a>
       <ul class="menu vertical nested">
+        <li><a href="enregistrement.php">S'enregistrer</a></li>
         <li><a href="contacte.php">Contact</a></li>
         <li><a href="calendrier.php">Calendrier</a></li>
         <li><a href="bacasable.php">Bac à sable</a></li>
+
 
        </ul>
     </li>
@@ -21,7 +23,7 @@
     <li><a href="#" target="_blank">Twitter<i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
     <li><a href="#" target="_blank">Google+<i class="fa fa-github-square" aria-hidden="true"></i></a></li>
     <li><a href="#" target="_blank">Pinterest<i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-    <li><a href="http://127.0.0.1/PHPTuto/backoffice" target="_blank">Administration<i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+    <li><a href="http://127.0.0.1/PHPTuto/BackOffice" target="_blank">Administration<i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
   </ul>
 </div>
 
@@ -57,7 +59,7 @@
 
 
 
-      <button class="button" type="button" ><a href="http://127.0.0.1/PHPTuto/">S'enregistrer</a></button>
+
 
 
 
